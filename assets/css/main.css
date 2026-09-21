@@ -1231,8 +1231,8 @@ section,
 
 .contact .info-item .contact-icon-img {
   background: var(--accent-color);
-  width: 44px;
-  height: 44px;
+  width: 64px;
+  height: 64px;
   padding: 12px;
   display: flex;
   justify-content: center;

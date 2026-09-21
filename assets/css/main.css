@@ -1229,6 +1229,21 @@ section,
   margin-right: 15px;
 }
 
+.contact .info-item .contact-icon-img {
+  background: var(--accent-color);
+  width: 44px;
+  height: 44px;
+  padding: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+  margin-right: 15px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
 .contact .info-item h3 {
   padding: 0;
   font-size: 18px;

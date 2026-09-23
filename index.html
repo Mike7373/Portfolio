@@ -114,20 +114,76 @@
 
           <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200" style="position: relative; height: 1344px;">
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-work" style="position: absolute; left: 0px; top: 0px;">
-              <div class="portfolio-content h-100">
-                <img src="assets/img/portfolio/app-1.jpg" class="img-fluid" alt="">
-                <div class="portfolio-info">
-                  <h4>Work 1</h4>
-                  <p>Lorem ipsum</p>
-                  <div>
-                    <a href="assets/img/portfolio/app-1.jpg" title="Title" data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i class="bi bi-zoom-in"><span>Description</span></i></a>
-                    <a href="portfolio-details.html" title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                  </div>
+            <!-- Portfolio Item: Work 1 -->
+          <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-work">
+            <div class="portfolio-content h-100">
+
+              <!-- Image shown on the normal portfolio page -->
+              <img
+                src="assets/img/portfolio/app-1.jpg"
+                class="img-fluid"
+                alt="Work 1 screenshot"
+              >
+
+              <div class="portfolio-info">
+                <h4>Work 1</h4>
+                <p>Short description of Work 1.</p>
+
+                <div>
+                  <!-- Zoom button: opens the first gallery item -->
+                  <a
+                    href="assets/img/portfolio/app-1.jpg"
+                    title="Work 1 - Screenshot"
+                    data-gallery="work-1-gallery"
+                    data-glightbox="title: Work 1; description: Main screenshot of the project."
+                    class="glightbox preview-link"
+                  >
+                    <i class="bi bi-zoom-in"></i>
+                  </a>
+
+                  <!-- Details page button -->
+                  <a
+                    href="portfolio-details.html"
+                    title="More Details"
+                    class="details-link"
+                  >
+                    <i class="bi bi-link-45deg"></i>
+                  </a>
                 </div>
               </div>
-            </div><!-- End Portfolio Item -->
+            </div>
+          </div><!-- End Portfolio Item -->
 
+
+          <!-- Hidden extra items for the Work 1 zoom gallery -->
+          <div class="d-none">
+
+            <!-- YouTube video: shown after the first image -->
+            <a
+              href="https://www.youtube.com/watch?v=YOUR_YOUTUBE_VIDEO_ID"
+              title="Work 1 - Video"
+              data-gallery="work-1-gallery"
+              data-type="video"
+              data-glightbox="title: Work 1 - Video; description: Short gameplay or project showcase video."
+              class="glightbox"
+            >
+              Work 1 video
+            </a>
+
+            <!-- Second image: shown after the video -->
+            <a
+              href="assets/img/portfolio/app-1-2.jpg"
+              title="Work 1 - Second Screenshot"
+              data-gallery="work-1-gallery"
+              data-glightbox="title: Work 1 - Screenshot 2; description: Another screenshot of the project."
+              class="glightbox"
+            >
+              Work 1 screenshot 2
+            </a>
+
+          </div>
+
+            <!-- START PORTFOLIO ITEM -->>
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-school" style="position: absolute; left: 440px; top: 0px;">
               <div class="portfolio-content h-100">
                 <img src="assets/img/portfolio/product-1.jpg" class="img-fluid" alt="">

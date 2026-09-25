@@ -1321,6 +1321,12 @@ section,
   margin: 0 auto;
 }
 
+@media (max-width: 767.98px) {
+  .about .profile-picture {
+    width: 180px;
+  }
+}
+
 .project-video-frame {
   display: block;
   width: 100%;

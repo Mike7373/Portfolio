@@ -1328,3 +1328,13 @@ section,
   height: auto;
   border: 0;
 }
+
+.resume .btn-download {
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.resume .btn-download:hover,
+.resume .btn-download:focus {
+  color: #ffffff;
+}

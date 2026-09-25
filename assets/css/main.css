@@ -1347,13 +1347,13 @@ section,
 .contact .php-email-form textarea {
   color: #ffffff;
   background-color: #1f2633;
-  border: 1px solid #9aa7b8;
+  border: 1px solid #b3bfce;
 }
 
 .contact .php-email-form input[type="text"]::placeholder,
 .contact .php-email-form input[type="email"]::placeholder,
 .contact .php-email-form textarea::placeholder {
-  color: #d5dbe5;
+  color: #e5eaf1;
   opacity: 1;
 }
 

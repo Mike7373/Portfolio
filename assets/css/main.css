@@ -1340,3 +1340,28 @@ section,
   color: #ffffff;
   text-decoration: underline
 }
+
+/* More visible dark-theme contact form */
+.contact .php-email-form input[type="text"],
+.contact .php-email-form input[type="email"],
+.contact .php-email-form textarea {
+  color: #ffffff;
+  background-color: #1f2633;
+  border: 1px solid #9aa7b8;
+}
+
+.contact .php-email-form input[type="text"]::placeholder,
+.contact .php-email-form input[type="email"]::placeholder,
+.contact .php-email-form textarea::placeholder {
+  color: #d5dbe5;
+  opacity: 1;
+}
+
+.contact .php-email-form input[type="text"]:focus,
+.contact .php-email-form input[type="email"]:focus,
+.contact .php-email-form textarea:focus {
+  color: #ffffff;
+  border-color: #8bb8ff;
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(139, 184, 255, 0.2);
+}

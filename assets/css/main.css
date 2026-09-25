@@ -1335,16 +1335,20 @@ section,
   border: 0;
 }
 
-.resume .btn-download {
-  color: #ffffff;
-  font-weight: 700;
-  text-decoration: underline
-}
-
+.resume .btn-download,
 .resume .btn-download:hover,
 .resume .btn-download:focus {
   color: #ffffff;
-  text-decoration: underline
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.resume .btn-download .bi {
+  margin-right: 8px;
+}
+
+.resume .btn-download span {
+  text-decoration: underline;
 }
 
 /* More visible dark-theme contact form */

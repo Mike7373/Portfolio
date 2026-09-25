@@ -1295,7 +1295,7 @@ section,
 }
 
 
-#Resume button
+/*Resume button*/
 
 .contact .php-email-form button[type=submit]:hover {
   background: color-mix(in srgb, var(--accent-color), transparent 20%);
@@ -1374,4 +1374,25 @@ section,
   border-color: #8bb8ff;
   outline: none;
   box-shadow: 0 0 0 2px rgba(139, 184, 255, 0.2);
+}
+
+/*Standard Button Style*/ 
+
+.accent-button {
+  display: inline-block;
+  color: var(--contrast-color);
+  background: var(--accent-color);
+  border: 0;
+  padding: 10px 30px;
+  border-radius: 50px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.4s;
+}
+
+.accent-button:hover,
+.accent-button:focus {
+  color: var(--contrast-color);
+  background: color-mix(in srgb, var(--accent-color), transparent 20%);
+  text-decoration: none;
 }

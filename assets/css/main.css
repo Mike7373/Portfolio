@@ -1320,3 +1320,11 @@ section,
   display: block;
   margin: 0 auto;
 }
+
+.project-video-frame {
+  display: block;
+  width: 100%;
+  aspect-ratio: 5 / 3;
+  height: auto;
+  border: 0;
+}

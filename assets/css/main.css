@@ -152,6 +152,7 @@ h6 {
 
 .header .logo {
   line-height: 1;
+  margin-left: 58px;
 }
 
 .header .logo img {
@@ -193,6 +194,7 @@ h6 {
   top: 0;
   bottom: 0;
   left: -300px;
+  right: auto;
   z-index: 997;
   transition: 0.3s;
   width: 300px;
@@ -1398,10 +1400,4 @@ section,
   color: var(--contrast-color);
   background: color-mix(in srgb, var(--accent-color), transparent 20%);
   text-decoration: none;
-}
-
-.header .container-fluid {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
 }

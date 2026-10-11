@@ -174,7 +174,8 @@ h6 {
   color: var(--nav-color);
   position: fixed;
   top: 20px;
-  right: 20px;
+  left: 20px;
+  right: auto;
   font-size: 32px;
   line-height: 0;
   cursor: pointer;
@@ -191,7 +192,7 @@ h6 {
   position: fixed;
   top: 0;
   bottom: 0;
-  right: -300px;
+  left: -300px;
   z-index: 997;
   transition: 0.3s;
   width: 300px;
@@ -277,7 +278,8 @@ h6 {
 }
 
 .mobile-nav-active .mobile-nav-toggle {
-  right: 310px;
+  left: 310px;
+  right: auto;
   background-color: var(--surface-color);
   border-radius: 50%;
   border: 1px solid color-mix(in srgb, var(--default-color), transparent 80%);
@@ -288,7 +290,8 @@ h6 {
   overflow: hidden;
   top: 0;
   bottom: 0;
-  right: 0;
+  left: 0;
+  right: auto;
   background-color: var(--nav-mobile-background-color);
   transition: 0.3s;
 }
